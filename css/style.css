@@ -1,0 +1,23 @@
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    height: 7vh;
+}
+
+#icon {
+    width: 50px;
+}
+
+.card {
+    min-height: 400px;
+    background-color: rgb(14, 27, 41);
+    cursor: pointer;
+}
+
+.cust-bg {
+    background-color: rgb(29, 45, 60);
+    height: calc(100% - 7vh);
+}
