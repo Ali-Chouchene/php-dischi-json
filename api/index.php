@@ -1,6 +1,6 @@
 <?php
 
-$source_url = __DIR__ . '../server/data.json';
+$source_url = __DIR__ . '/../server/data.json';
 
 $data_json = file_get_contents($source_url);
 
@@ -28,5 +28,4 @@ $genre_filter = $_GET['genre'] ?? '';
 
 
 header('Content-Type: application/json');
-// echo $filter;
 echo json_encode($discs);

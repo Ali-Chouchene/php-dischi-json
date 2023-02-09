@@ -2,7 +2,7 @@
 
 //! VUE_JS!//
 const { createApp } = Vue;
-const apiUri = 'http://localhost/php-dischi-json/index.php?genre=';
+const apiUri = 'http://localhost/php-dischi-json/api/index.php?genre=';
 const app = Vue.createApp({
     name: "Vue",
     data() {
