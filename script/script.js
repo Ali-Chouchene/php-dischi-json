@@ -20,8 +20,6 @@ const app = Vue.createApp({
     created() {
         axios.get(apiUri).then(res => {
             this.discs = res.data;
-
-
             for (let i = 0; i < this.discs.length; i++) {
                 if (this.genres.indexOf(this.discs[i].genre) === -1) {
                     this.genres.push(this.discs[i].genre)
