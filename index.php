@@ -1,6 +1,6 @@
 <?php
 
-$source_url = __DIR__ . '/data.json';
+$source_url = __DIR__ . '../server/data.json';
 
 $data_json = file_get_contents($source_url);
 
